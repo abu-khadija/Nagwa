@@ -1,16 +1,14 @@
 package Tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import java.time.Duration;
 
-public class testBase {
+public class TestBase {
     public static WebDriver driver;
 
 
@@ -24,8 +22,8 @@ public class testBase {
     }
 
 
-//    @AfterSuite
-//    public void CloseDriver(){
-//        driver.quit();
-//    }
+    @AfterSuite
+    public void CloseDriver(){
+        driver.quit();
+    }
 }

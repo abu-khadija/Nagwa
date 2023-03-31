@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class homePageSearchTest extends testBase{
+public class HomePageSearchTest extends TestBase{
     @Test
     public void search(){
         homePage home;
