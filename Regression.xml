@@ -4,9 +4,9 @@
 
     <test name="Regression">
         <classes>
-            <class name="Tests.homePageSearchTest"/>
-            <class name="Tests.searchResultsTest"/>
-            <class name="Tests.workSheetTest"/>
+            <class name="Tests.HomePageSearchTest"/>
+            <class name="Tests.SearchResultsTest"/>
+            <class name="Tests.WorkSheetTest"/>
         </classes>
     </test>
 </suite>
