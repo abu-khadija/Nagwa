@@ -1,6 +1,6 @@
 package Tests;
 
-import Pages.searchResultsPage;
+import Pages.searchResultsClass;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,11 +8,11 @@ import org.testng.annotations.Test;
 public class SearchResultsTest extends TestBase{
     @Test
     public void results(){
-        searchResultsPage r;
-        r =new searchResultsPage(driver);
+        searchResultsClass results;
+        results =new searchResultsClass(driver);
 
 
-        r.chooseLesson();
+        results.chooseLesson();
 
         //Assertion
         String expectedResult = "START PRACTISING";

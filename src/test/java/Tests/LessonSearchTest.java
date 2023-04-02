@@ -1,6 +1,6 @@
 package Tests;
 
-import Pages.homePage;
+import Pages.LessonSearchClass;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 import org.openqa.selenium.By;
@@ -22,10 +22,10 @@ public class LessonSearchTest extends TestBase{
         while ((csvCell = reader.readNext()) != null)
         {
         String lesson = csvCell[0];
-            homePage home;
-            home = new homePage(driver);
+            LessonSearchClass LessonSearch;
+            LessonSearch = new LessonSearchClass(driver);
 
-            home.search(lesson);
+            LessonSearch.SearchOnLesson(lesson);
 
 
             //Assertion
