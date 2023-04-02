@@ -5,11 +5,9 @@ import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-
 import java.io.FileReader;
 import java.io.IOException;
 
-//import static jdk.internal.logger.DefaultLoggerFinder.SharedLoggers.system;
 
 public class LessonSearchTest extends TestBase{
     CSVReader reader;
@@ -32,10 +30,6 @@ public class LessonSearchTest extends TestBase{
 
             //Assertion
             driver.findElement(By.id("btn_search")).isDisplayed();
-
         }
-
-
-
     }
 }
