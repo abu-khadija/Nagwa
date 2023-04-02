@@ -12,10 +12,10 @@ public class homePage extends pageBase{
     private final By submitButton = By.id("btn_global_search");
 
 
-
-    public void search(){
+    public void search(String lesson ) {
+        
         driver.findElement(searchButton).click();
-        driver.findElement(searchText).sendKeys("addition");
+        driver.findElement(searchText).sendKeys(lesson);
         driver.findElement(submitButton).click();
     }
 }

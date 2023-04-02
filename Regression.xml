@@ -4,7 +4,7 @@
 
     <test name="Regression">
         <classes>
-            <class name="Tests.HomePageSearchTest"/>
+            <class name="Tests.LessonSearchDDTAndCSV"/>
             <class name="Tests.SearchResultsTest"/>
             <class name="Tests.WorkSheetTest"/>
         </classes>

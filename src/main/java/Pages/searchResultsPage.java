@@ -8,7 +8,10 @@ public class searchResultsPage extends pageBase{
     public searchResultsPage(WebDriver driver) {super(driver);}
 
 
-    private final By lessonTwo = By.linkText("Addition Polymerization");
+    private final By lessonTwo = By.xpath("/html/body/div/div[1]/div/div/main/div[3]/ul/li[2]/div/a");
+    //.list > li:nth-child(2) > div:nth-child(1) > a:nth-child(1)
+    //.list > li:nth-child(2) > div:nth-child(1) > a:nth-child(1)
+    ///html/body/div/div[1]/div/div/main/div[3]/ul/li[2]/div/a
     private final By worksheetSection = By.className("question-preview");
 
 
