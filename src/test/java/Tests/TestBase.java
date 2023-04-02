@@ -21,9 +21,9 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-//
-//    @AfterSuite
-//    public void CloseDriver(){
-//        driver.quit();
-//    }
+
+    @AfterSuite
+    public void CloseDriver(){
+        driver.quit();
+    }
 }
