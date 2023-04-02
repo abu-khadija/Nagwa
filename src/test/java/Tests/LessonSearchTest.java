@@ -6,13 +6,12 @@ import com.opencsv.exceptions.CsvValidationException;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
 //import static jdk.internal.logger.DefaultLoggerFinder.SharedLoggers.system;
 
-public class LessonSearchDDTAndCSV extends TestBase{
+public class LessonSearchTest extends TestBase{
     CSVReader reader;
 
     @Test
